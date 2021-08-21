@@ -1,0 +1,36 @@
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  background: #eee;
+  font-family: sans-serif;
+  &::-webkit-scrollbar{
+    width: 12px;
+  }
+  &::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background: #f1f1f1;
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #aaa;
+  }
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}

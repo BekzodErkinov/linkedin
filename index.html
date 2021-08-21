@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="navigation">
+        <a class="brand" href="#">
+          <img src="https://img.icons8.com/color/48/000000/linkedin.png">
+        </a>
+        <form class="nav-form" action="#">
+          <input class="search-input" type="text" placeholder="Search" name="search" required>
+          <button class="send-req-btn"><img src="https://img.icons8.com/ios-filled/20/000000/search.png"></button>
+        </form>
+        <div class="nav-links">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Profile</a>
+          <a class="nav-link" href="#">Connections</a>
+          <a class="nav-link" href="#">Interest</a>
+          <a class="nav-link" href="#">Try Premium</a>
+        </div>
+        <div class="icon-links">
+          <a href="#" class="comment"><img src="https://img.icons8.com/fluent/25/000000/comments.png"></a>
+          <a href="#" class="notification"><img src="https://img.icons8.com/fluent/25/000000/appointment-reminders.png"></a>
+          <a href="#" class="follow"><img src="https://img.icons8.com/ios/23/000000/add-user-male.png"></a>
+        </div>
+        <a class="user-profile" href="#">
+          <img class="user-img" width="55" src="img/Artboards_Diversity_Avatars_by_Netguru-33.png" alt="User Image">
+        </a>
+      </div>
+    </div>
+    <nav class="scrollspy-wrapper">
+      <div class="scrollspy container">
+        <a class="link link-1" href="#posts">Posts</a>
+        <a class="link link-2" href="#background">Background</a>
+        <a class="link link-3" href="#recommendations">Recommendations</a>
+        <a class="link link-4" href="#following">Following</a>
+        <span class="animation starts"></span>
+      </div>
+    </nav>
+  </header>
+  <article class="site-main-wrapper container">
+      <!-- Left ASIDE -->
+      <aside class="site-left-aside">
+        <div class="ads-user">
+          <div class="user-card">
+            <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-05.png" alt="user image">
+            <h3 class="user-name">Bill Gates</h3>
+            <p class="about-user">Microsoft Founder</p>
+            <p class="lower-txt">Greater Seattle Area</p>
+            <form class="subscribe-from" action="#">
+              <button class="follow-btn">Follow</button>
+              <select class="select-connect" name="connect" id="select-connect">
+                <option value="Default" selected disabled">Connect</option>
+                <option value="option-1">Option 1</option>
+                <option value="option-2">Option 2</option>
+                <option value="option-3">Option 3</option>
+              </select>
+            </form>
+            <div class="about-subscribers">
+              <div class="connection-wrap">
+                <span class="connecting">200</span>
+                <span class="connecting-txt">connection</span>
+              </div>
+              <div class="followers-wrap">
+                <span class="followers">1.9M</span>
+                <span class="followers-txt">followers</span>
+              </div>
+            </div>
+            <div class="other-links">
+              <a class="linkedin link" href="#">
+                <img src="https://img.icons8.com/material-outlined/18/a1a1a1/link.png">
+                linkedin.com/in/billgates
+              </a>
+              <a class="website link" href="#">
+                <img src="https://img.icons8.com/ios/18/a1a1a1/globe.png">
+                billgates.com
+              </a>
+            </div>
+            <div class="send-message">
+              <label for="upload-file">
+                <img src="https://img.icons8.com/material-rounded/18/a1a1a1/upload.png">
+                Export page as PDF
+              </label>
+              <input type="file" id="upload-file" name="upload_pdf">
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- Site MAIN -->
+      <main class="site-main">
+       <section class="posts-corousel">
+          <div class="corousel-lead">
+            <h2 class="title" id="posts">Posts</h2>
+          </div>
+          <div class="slick-items">
+            <div class="posts three-items">
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=1" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">3 Myths That Confuse Top-Maneger</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=2" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">How much do we spend on hot drinks</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=3" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">Good news you might have noticed</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=4" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">3 Myths That Confuse Top-Maneger</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=5" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">How much do we spend on hot drinks</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+              <a class="post-link" href="#">
+                <img class="post-img" src="https://picsum.photos/180?random=6" width="180" height="180" alt="Image Definition">
+                <h3 class="post-title">Good news you might have noticed</h3>
+                <p class="post-date">December 15, 2020</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="background">
+          <div class="lead">
+            <h2 class="title" id="background">Background</h2>
+          </div>
+          <ul class="items-wrap">
+            <li class="summary">
+              <div class="summary-lead">
+                <img class="icon" src="https://img.icons8.com/wired/30/000000/bulleted-list.png">
+                <h3 class="title">Summary</h3>
+              </div>
+              <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente Molestias quia non cumque corrupti, debitis sit eaque consectetur enim sunt provident iure nobis mollitia sed qui! Labore neque ad vitae quam facilis dolorum repellat tempora, nobis ratione sequi impedit numquam, distinctio amet recusandae Magnam sapiente reprehenderit qui doloribus quibusdam? Quasi temporibus dolore Ipsum ex? Voluptas quo deserunt excepturi blanditiis hic, dolore voluptates, non ipsam, magnam perferendis amet at neque in?</p>
+            </li>
+            <li class="experience">
+              <div class="experience-lead">
+                <img class="icon" src="https://img.icons8.com/ios-filled/30/000000/briefcase.png">
+                <h3 class="title">Experience</h3>
+              </div>
+              <div class="txt">
+                <div class="item item-1">
+                  <div class="about-co">
+                    <h5 class="date">2019 - Present</h5>
+                    <p class="co-name">Co-founder, Chairman</p>
+                    <a class="link-co" href="#">Microsoft</a>
+                  </div>
+                  <div class="co-logo">
+                    <img class="co-icon" src="https://img.icons8.com/color/40/000000/microsoft.png">
+                    <p class="co-name">Microsoft</p>
+                  </div>
+                </div>
+                <div class="item item-2">
+                  <div class="about-co">
+                    <h5 class="date">2015 - 2018</h5>
+                    <p class="co-name">Senior Developer</p>
+                    <a class="link-co" href="#">YouTube</a>
+                  </div>
+                  <div class="co-logo">
+                    <img class="co-icon" src="https://img.icons8.com/color/40/000000/youtube-play.png"/>
+                    <p class="co-name">YouTube</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="education">
+              <div class="education-lead">
+                <img class="icon" src="https://img.icons8.com/metro/30/000000/museum.png">
+                <h3 class="title">Education</h3>
+              </div>
+              <div class="txt">
+                <div class="item item-1">
+                  <div class="about-co">
+                    <h5 class="date">2012 - 2014</h5>
+                    <p class="co-name">Harvard University</p>
+                    <a class="link-co" href="#">BS Computer Science</a>
+                  </div>
+                </div>
+                <div class="item item-2">
+                  <div class="about-co">
+                    <h5 class="date">1999 - 2012</h5>
+                    <p class="co-name">Senior Developer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="skills">
+              <div class="skills-lead">
+                <img class="icon" src="https://img.icons8.com/wired/30/000000/idea.png">
+                <h3 class="title">Skills</h3>
+              </div>
+              <ul class="txt">
+                <li class="skill skill-1">
+                  <div class="skill-lead">
+                    <span class="client-num">95</span>
+                    <p class="skill-name">Web Development</p>
+                  </div>
+                  <div class="s1-clients-wrap">
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-20.png" alt="Client image">
+                    </a>
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-28.png" alt="Client image">
+                    </a>
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-24.png" alt="Client image">
+                    </a>
+                    <!-- Hidden clients -->
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-07.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-29.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-17.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-18.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-08.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-07.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-20.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-28.png" alt="Client image">
+                    </a>
+                    <a class="client s1-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-24.png" alt="Client image">
+                    </a>
+                    <button class="circle-style s1-toggle-btn"
+                      data-txt-original="92+"
+                      data-txt-swap="Hide"
+                      type="button">
+                      92+
+                    </button>
+                  </div>
+                </li>
+                <li class="skill skill-2">
+                  <div class="skill-lead">
+                    <span class="client-num">74</span>
+                    <p class="skill-name">Social Media Marketing</p>
+                  </div>
+                  <div class="s2-clients-wrap">
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-29.png" alt="Client image">
+                    </a>
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-17.png" alt="Client image">
+                    </a>
+                    <a class="client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-18.png" alt="Client image">
+                    </a>
+                    <!-- Hidden clients -->
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-08.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-07.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-20.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-28.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-24.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-29.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-17.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-18.png" alt="Client image">
+                    </a>
+                    <a class="client s2-other-client" href="#">
+                      <img class="client-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-08.png" alt="Client image">
+                    </a>
+                    <button class="s2-toggle-btn"
+                      data-txt-original="71+"
+                      data-txt-swap="Hide"
+                      type="button">
+                      71+
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="interests">
+              <div class="interests-lead">
+                <img class="icon" src="https://img.icons8.com/material-rounded/30/000000/star.png">
+                <h3 class="title">Interests</h3>
+              </div>
+              <ul class="txt">
+                <li class="item"><span>Wireless Industry</span></li>
+                <li class="item"><span>Photography</span></li>
+                <li class="item"><span>Web Design</span></li>
+                <li class="item"><span>Technology</span></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="recommendations">
+          <div class="lead">
+            <h2 class="title" id="recommendations">Recommendations</h2>
+          </div>
+          <div class="rec-slick-items">
+            <ul class="rec rec-three-items">
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natus minima dolores expedita tempore</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-36.png" alt="Sergey Brin">
+                  <div class="txt">
+                    <span class="user-name">Sergey Brin</span>
+                    <span class="definition">Google</span>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natus minima dolores expedita tempore</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-20.png" alt="Elon Musk">
+                  <div class="txt">
+                    <span class="user-name">Elon Musk</span>
+                    <span class="definition">SpaceX</span>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natus minima dolores expedita tempore</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-18.png" alt="Jack Ma">
+                  <div class="txt">
+                    <span class="user-name">Jack Ma</span>
+                    <span class="definition">Alibaba</span>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natus minima dolores expedita tempore, ex in modi. Perferendis cumque sequi labore eos accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quas enim, eveniet velit nesciunt quis ut consequatur aperiam, necessitatibus, provident numquam quam! Deleniti veritatis dolorem exercitationem reiciendis perspiciatis, molestias nemo.</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-14.png" alt="Steve Jobs">
+                  <div class="txt">
+                    <span class="user-name">Steve Jobs</span>
+                    <span class="definition">Apple</span>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natus Id magni laborum iste natus Id magni laborum iste natus minima dolores expedita tempore</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-05.png" alt="Mark Zuckerberg">
+                  <div class="txt">
+                    <span class="user-name">Mark Zuckerberg</span>
+                    <span class="definition">Facebook</span>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <div class="comment-wrapper">
+                  <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni laborum iste natu!</p>
+                </div>
+                <a class="user" href="#">
+                  <img class="user-img" width="50" src="img/Artboards_Diversity_Avatars_by_Netguru-08.png" alt="Jeffrey Bezos">
+                  <div class="txt">
+                    <span class="user-name">Jeffrey Bezos</span>
+                    <span class="definition">Amazon</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="following">
+          <div class="lead">
+            <h2 class="title" id="following">Following</h2>
+          </div>
+          <ul class="following-list">
+            <li class="item">
+              <div class="img-wrap">
+                <img class="co-logo"  src="https://img.icons8.com/color/55/000000/ibm.png" alt="IBM co">
+              </div>
+              <span class="co-name">IBM</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/razer.png" alt="Razer co">
+              </div>
+              <span class="co-name">Razer</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/48/000000/hp.png" alt="HP co">
+              </div>
+              <span class="co-name">hp</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/metro/55/000000/mac-os.png" alt="Apple co">
+              </div>
+              <span class="co-name">Apple</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/microsoft.png" alt="Microsoft co">
+              </div>
+              <span class="co-name">Microsoft</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/google-logo.png" alt="Google co">
+              </div>
+              <span class="co-name">Google</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/dell--v1.png" alt="Dell co">
+              </div>
+              <span class="co-name">Dell</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/linux.png" alt="Linux co">
+              </div>
+              <span class="co-name">Linux</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/dusk/55/000000/huawei-logo.png" alt="Huawei co">
+              </div>
+              <span class="co-name">Huawei</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/amazon.png" alt="Amazon co">
+              </div>
+              <span class="co-name">Amazon</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/xiaomi.png" alt="Xiaomi co">
+              </div>
+              <span class="co-name">Xiaomi</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/fluent/55/000000/facebook-new.png" alt="Facebook co">
+              </div>
+              <span class="co-name">Facebook</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/tesla-logo.png" alt="Tesla co">
+              </div>
+              <span class="co-name">Tesla</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/android-os.png" alt="Android co">
+              </div>
+              <span class="co-name">Android</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+            <li class="item show-follow-item">
+              <div class="img-wrap">
+                <img class="co-logo" src="https://img.icons8.com/color/55/000000/xbox--v1.png" alt="Xbox co">
+              </div>
+              <span class="co-name">Xbox</span>
+              <button class="follow-btn" type="button">
+                <span class="plus-icon">+</span>
+                Follow
+              </button>
+            </li>
+          </ul>
+          <button
+            data-txt-swap="Less"
+            data-txt-original="See all (20)"
+            class="show-more-btn">
+            See all (20)
+          </button>
+        </section>
+      </main>
+      <!-- Right ASIDE -->
+      <aside class="site-right-aside">
+        <div class="followed-users">
+          <div class="viewed-users">
+            <h2 class="lead">People also viewed</h2>
+            <div class="following-list">
+              <a class="user" href="#">
+                <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-36.png" alt="Sergey Brin">
+                <div class="txt">
+                  <span class="user-name">Sergey Brin</span>
+                  <span class="definition">Google</span>
+                </div>
+              </a>
+              <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-29.png" width="60" alt="Jeffrey Bezos">
+                <div class="txt">
+                  <span class="user-name">Jeffrey Bezos</span>
+                  <span class="definition">Amazon</span>
+                </div>
+              </a>
+              <a class="user" href="#">
+                <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-14.png" width="60" alt="Steve Jobs">
+                <div class="txt">
+                  <span class="user-name">Steve Jobs</span>
+                  <span class="definition">Apple</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="influencers">
+            <h2 class="lead">More Influencers</h2>
+            <div class="slick-items">
+              <div class="list-followers one-time">
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-18.png" width="120" alt="Jack Ma">
+                  <span class="user-name">Jack Ma</span>
+                  <span class="definition">Alibaba</span>
+                </a>
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-20.png" width="120" alt="Elon Musk">
+                  <span class="user-name">Elon Musk</span>
+                  <span class="definition">SpaceX</span>
+                  <span class="definition">Tesla</span>
+                </a>
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-05.png" width="120" alt="Mark Zuckerberg">
+                  <span class="user-name">Mark Zuckerberg</span>
+                  <span class="definition">Facebook</span>
+                  <span class="definition">Instagram</span>
+                </a>
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-14.png" width="120" alt="Steve Jobs">
+                  <span class="user-name">Steve Jobs</span>
+                  <span class="definition">Apple</span>
+                </a>
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-29.png" width="120" alt="Jeffrey Bezos">
+                  <span class="user-name">Jeffrey Bezos</span>
+                  <span class="definition">Amazon</span>
+                </a>
+                <a class="user" href="#">
+                  <img class="user-img" src="img/Artboards_Diversity_Avatars_by_Netguru-36.png" width="120" alt="Sergey Brin">
+                  <span class="user-name">Sergey Brin</span>
+                  <span class="definition">Google</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+  </article>
+  <footer class="site-footer">
+    <div class="container">
+      <h3 class="brand-name">LinkedIn Corporation &copy; 2020</h3>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
